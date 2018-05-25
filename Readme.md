@@ -1,4 +1,4 @@
-# Document Server - Using Workbook databinding to log and analyze performance counters
+# Spreadsheet Document API - Using Workbook databinding to log and analyze performance counters
 
 
 <p>This example illustrates the use of the <a href="http://help.devexpress.com/#DocumentServer/clsDevExpressSpreadsheetWorkbooktopic">DevExpress.Spreadsheet.Workbook</a> instance to perform the calculations on data bound to an external data source. The calculation result is located in the cell exposed as the data source for the <a href="http://help.devexpress.com/#WindowsForms/clsDevExpressXtraGaugesWinGaugeControltopic">DevExpress.XtraGauges.Win.GaugeControl</a> control.</p>
@@ -6,7 +6,4 @@
 <p>The <strong>CORREL</strong> <a href="http://help.devexpress.com/#DocumentServer/CustomDocument15067">statistical function</a> calculates the correlation coefficient. The cell containing the calculation result is exposed as the data source using the <a href="http://help.devexpress.com/#CoreLibraries/DevExpressSpreadsheetRange_GetDataSourcetopic">DevExpress.Spreadsheet.Range.GetDataSource</a> method.</p>
 <p>The worksheet data source providing a correlation coefficient value is bound to the <a href="http://help.devexpress.com/#WindowsForms/DevExpressXtraGaugesWinGaugesCircularArcScaleComponent_DataBindingstopic">DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent.DataBindings</a> and  <a href="http://help.devexpress.com/#WindowsForms/DevExpressXtraGaugesWinBaseLabelComponent_DataBindingstopic">LabelComponent.DataBindings</a> collections of the <a href="http://help.devexpress.com/#WindowsForms/CustomDocument18225">circular gauge</a> control. The gauge control shows the correlation dynamically.</p>
 <p>The application window is shown at the following picture.<br><br><img src="https://raw.githubusercontent.com/DevExpress-Examples/document-server-using-workbook-databinding-to-log-and-analyze-performance-counters-t520862/17.1.3+/media/18d40212-460e-11e7-80c0-00155d624807.png"></p>
-
 <br/>
-
-
