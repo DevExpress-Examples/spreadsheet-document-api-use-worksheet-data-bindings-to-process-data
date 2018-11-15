@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/PerformanceCounterCorrelationExample/Form1.cs) (VB: [Form1.vb](./VB/PerformanceCounterCorrelationExample/Form1.vb))
+* [PerformanceDataProvider.cs](./CS/PerformanceCounterCorrelationExample/PerformanceDataProvider.cs) (VB: [PerformanceDataProvider.vb](./VB/PerformanceCounterCorrelationExample/PerformanceDataProvider.vb))
+* [TwoCounterSample.cs](./CS/PerformanceCounterCorrelationExample/TwoCounterSample.cs) (VB: [TwoCounterSample.vb](./VB/PerformanceCounterCorrelationExample/TwoCounterSample.vb))
+* [WorksheetProcessor.cs](./CS/PerformanceCounterCorrelationExample/WorksheetProcessor.cs) (VB: [WorksheetProcessor.vb](./VB/PerformanceCounterCorrelationExample/WorksheetProcessor.vb))
+<!-- default file list end -->
 # Spreadsheet Document API - Using Workbook databinding to log and analyze performance counters
 
 
