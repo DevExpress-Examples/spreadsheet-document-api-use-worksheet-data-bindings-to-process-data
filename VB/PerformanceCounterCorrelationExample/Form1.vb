@@ -1,31 +1,36 @@
-﻿Imports System
+Imports System
 Imports System.Diagnostics
 Imports System.Windows.Forms
 
 Namespace PerformanceCounterCorrelation
-    Partial Public Class Form1
+
+    Public Partial Class Form1
         Inherits Form
 
         Private isRunning As Boolean
+
         Private dataProvider As PerformanceDataProvider
+
         Private sheetProcessor As WorksheetProcessor
-        Private firstCounter As New PerformanceCounter()
-        Private secondCounter As New PerformanceCounter()
+
+        Private firstCounter As PerformanceCounter = New PerformanceCounter()
+
+        Private secondCounter As PerformanceCounter = New PerformanceCounter()
 
         Public Sub New()
             InitializeComponent()
             FillCounterInformation()
-            Me.btnStart.Select()
+            btnStart.Select()
         End Sub
 
         Private Sub FillCounterInformation()
             Dim processName As String = Process.GetCurrentProcess().ProcessName
-            Me.textEditCategory1.Text = "Process"
-            Me.textEditCounter1.Text = "Private Bytes"
-            Me.textEditInstance1.Text = processName
-            Me.textEditCategory2.Text = ".NET CLR Memory"
-            Me.textEditCounter2.Text = "# Bytes In All Heaps"
-            Me.textEditInstance2.Text = processName
+            textEditCategory1.Text = "Process"
+            textEditCounter1.Text = "Private Bytes"
+            textEditInstance1.Text = processName
+            textEditCategory2.Text = ".NET CLR Memory"
+            textEditCounter2.Text = "# Bytes In All Heaps"
+            textEditInstance2.Text = processName
         End Sub
 
         Private Function CreateCounters() As Boolean
@@ -36,17 +41,16 @@ Namespace PerformanceCounterCorrelation
                 firstCounter.NextValue()
                 secondCounter.NextValue()
             Catch e As Exception
-                MessageBox.Show(e.Message,"Counter Error")
+                MessageBox.Show(e.Message, "Counter Error")
                 Return False
             End Try
+
             Return True
         End Function
 
-        Private Sub btnStart_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnStart.Click
+        Private Sub btnStart_Click(ByVal sender As Object, ByVal e As EventArgs)
             If Not isRunning Then
-                If Not CreateCounters() Then
-                    Return
-                End If
+                If Not CreateCounters() Then Return
                 btnStart.Text = "Stop"
                 dataProvider = New PerformanceDataProvider(firstCounter, secondCounter)
                 AddHandler dataProvider.DataReady, AddressOf DataProvider_DataReady
@@ -78,7 +82,5 @@ Namespace PerformanceCounterCorrelation
             arcScaleComponent1.DataBindings.Clear()
             labelComponent1.DataBindings.Clear()
         End Sub
-
-
     End Class
 End Namespace

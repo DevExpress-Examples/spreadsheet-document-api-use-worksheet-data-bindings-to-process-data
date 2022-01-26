@@ -1,5 +1,7 @@
-﻿Namespace PerformanceCounterCorrelation
-    Partial Public Class Form1
+Namespace PerformanceCounterCorrelation
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,27 +12,27 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
-            Dim columnDefinition3 As New DevExpress.XtraLayout.ColumnDefinition()
-            Dim columnDefinition4 As New DevExpress.XtraLayout.ColumnDefinition()
-            Dim rowDefinition7 As New DevExpress.XtraLayout.RowDefinition()
-            Dim rowDefinition8 As New DevExpress.XtraLayout.RowDefinition()
-            Dim rowDefinition9 As New DevExpress.XtraLayout.RowDefinition()
-            Dim rowDefinition10 As New DevExpress.XtraLayout.RowDefinition()
-            Dim rowDefinition11 As New DevExpress.XtraLayout.RowDefinition()
-            Dim rowDefinition12 As New DevExpress.XtraLayout.RowDefinition()
+            Dim columnDefinition3 As DevExpress.XtraLayout.ColumnDefinition = New DevExpress.XtraLayout.ColumnDefinition()
+            Dim columnDefinition4 As DevExpress.XtraLayout.ColumnDefinition = New DevExpress.XtraLayout.ColumnDefinition()
+            Dim rowDefinition7 As DevExpress.XtraLayout.RowDefinition = New DevExpress.XtraLayout.RowDefinition()
+            Dim rowDefinition8 As DevExpress.XtraLayout.RowDefinition = New DevExpress.XtraLayout.RowDefinition()
+            Dim rowDefinition9 As DevExpress.XtraLayout.RowDefinition = New DevExpress.XtraLayout.RowDefinition()
+            Dim rowDefinition10 As DevExpress.XtraLayout.RowDefinition = New DevExpress.XtraLayout.RowDefinition()
+            Dim rowDefinition11 As DevExpress.XtraLayout.RowDefinition = New DevExpress.XtraLayout.RowDefinition()
+            Dim rowDefinition12 As DevExpress.XtraLayout.RowDefinition = New DevExpress.XtraLayout.RowDefinition()
             Me.textEditCategory1 = New DevExpress.XtraEditors.TextEdit()
             Me.layoutControl1 = New DevExpress.XtraLayout.LayoutControl()
             Me.gaugeControl1 = New DevExpress.XtraGauges.Win.GaugeControl()
@@ -55,29 +57,29 @@
             Me.simpleLabelItem2 = New DevExpress.XtraLayout.SimpleLabelItem()
             Me.layoutControlItem7 = New DevExpress.XtraLayout.LayoutControlItem()
             Me.layoutControlItem8 = New DevExpress.XtraLayout.LayoutControlItem()
-            CType(Me.textEditCategory1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.textEditCategory1.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControl1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.layoutControl1.SuspendLayout()
-            CType(Me.circularGauge1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.labelComponent1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.arcScaleRangeBarComponent1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.arcScaleComponent1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.textEditCounter2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.textEditInstance2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.textEditInstance1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.textEditCounter1.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.textEditCategory2.Properties, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlGroup1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem2, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem3, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem4, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem5, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem6, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.simpleLabelItem1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.simpleLabelItem2, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem7, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.layoutControlItem8, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.circularGauge1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.labelComponent1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.arcScaleRangeBarComponent1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.arcScaleComponent1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.textEditCounter2.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.textEditInstance2.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.textEditInstance1.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.textEditCounter1.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.textEditCategory2.Properties), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlGroup1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem2), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem3), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem4), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem5), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem6), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.simpleLabelItem1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.simpleLabelItem2), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem7), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.layoutControlItem8), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' textEditCategory1
@@ -109,8 +111,8 @@
             ' 
             ' gaugeControl1
             ' 
-            Me.gaugeControl1.ColorScheme.TargetElements = (CType((DevExpress.XtraGauges.Core.Base.TargetElement.RangeBar Or DevExpress.XtraGauges.Core.Base.TargetElement.Label), DevExpress.XtraGauges.Core.Base.TargetElement))
-            Me.gaugeControl1.Gauges.AddRange(New DevExpress.XtraGauges.Base.IGauge() { Me.circularGauge1})
+            Me.gaugeControl1.ColorScheme.TargetElements = CType(((DevExpress.XtraGauges.Core.Base.TargetElement.RangeBar Or DevExpress.XtraGauges.Core.Base.TargetElement.Label)), DevExpress.XtraGauges.Core.Base.TargetElement)
+            Me.gaugeControl1.Gauges.AddRange(New DevExpress.XtraGauges.Base.IGauge() {Me.circularGauge1})
             Me.gaugeControl1.Location = New System.Drawing.Point(12, 127)
             Me.gaugeControl1.Name = "gaugeControl1"
             Me.gaugeControl1.Size = New System.Drawing.Size(433, 261)
@@ -119,10 +121,10 @@
             ' circularGauge1
             ' 
             Me.circularGauge1.Bounds = New System.Drawing.Rectangle(6, 6, 421, 249)
-            Me.circularGauge1.Labels.AddRange(New DevExpress.XtraGauges.Win.Base.LabelComponent() { Me.labelComponent1})
+            Me.circularGauge1.Labels.AddRange(New DevExpress.XtraGauges.Win.Base.LabelComponent() {Me.labelComponent1})
             Me.circularGauge1.Name = "circularGauge1"
-            Me.circularGauge1.RangeBars.AddRange(New DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent() { Me.arcScaleRangeBarComponent1})
-            Me.circularGauge1.Scales.AddRange(New DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent() { Me.arcScaleComponent1})
+            Me.circularGauge1.RangeBars.AddRange(New DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent() {Me.arcScaleRangeBarComponent1})
+            Me.circularGauge1.Scales.AddRange(New DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent() {Me.arcScaleComponent1})
             ' 
             ' labelComponent1
             ' 
@@ -212,12 +214,13 @@
             Me.btnStart.StyleController = Me.layoutControl1
             Me.btnStart.TabIndex = 9
             Me.btnStart.Text = "Start"
+            AddHandler Me.btnStart.Click, New System.EventHandler(AddressOf Me.btnStart_Click)
             ' 
             ' layoutControlGroup1
             ' 
-            Me.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.True
+            Me.layoutControlGroup1.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
             Me.layoutControlGroup1.GroupBordersVisible = False
-            Me.layoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() { Me.layoutControlItem1, Me.layoutControlItem2, Me.layoutControlItem3, Me.layoutControlItem4, Me.layoutControlItem5, Me.layoutControlItem6, Me.simpleLabelItem1, Me.simpleLabelItem2, Me.layoutControlItem7, Me.layoutControlItem8})
+            Me.layoutControlGroup1.Items.AddRange(New DevExpress.XtraLayout.BaseLayoutItem() {Me.layoutControlItem1, Me.layoutControlItem2, Me.layoutControlItem3, Me.layoutControlItem4, Me.layoutControlItem5, Me.layoutControlItem6, Me.simpleLabelItem1, Me.simpleLabelItem2, Me.layoutControlItem7, Me.layoutControlItem8})
             Me.layoutControlGroup1.LayoutMode = DevExpress.XtraLayout.Utils.LayoutMode.Table
             Me.layoutControlGroup1.Location = New System.Drawing.Point(0, 0)
             Me.layoutControlGroup1.Name = "Root"
@@ -225,7 +228,7 @@
             columnDefinition3.Width = 50R
             columnDefinition4.SizeType = System.Windows.Forms.SizeType.Percent
             columnDefinition4.Width = 50R
-            Me.layoutControlGroup1.OptionsTableLayoutGroup.ColumnDefinitions.AddRange(New DevExpress.XtraLayout.ColumnDefinition() { columnDefinition3, columnDefinition4})
+            Me.layoutControlGroup1.OptionsTableLayoutGroup.ColumnDefinitions.AddRange(New DevExpress.XtraLayout.ColumnDefinition() {columnDefinition3, columnDefinition4})
             rowDefinition7.Height = 17R
             rowDefinition7.SizeType = System.Windows.Forms.SizeType.AutoSize
             rowDefinition8.Height = 24R
@@ -238,7 +241,7 @@
             rowDefinition11.SizeType = System.Windows.Forms.SizeType.AutoSize
             rowDefinition12.Height = 265R
             rowDefinition12.SizeType = System.Windows.Forms.SizeType.AutoSize
-            Me.layoutControlGroup1.OptionsTableLayoutGroup.RowDefinitions.AddRange(New DevExpress.XtraLayout.RowDefinition() { rowDefinition7, rowDefinition8, rowDefinition9, rowDefinition10, rowDefinition11, rowDefinition12})
+            Me.layoutControlGroup1.OptionsTableLayoutGroup.RowDefinitions.AddRange(New DevExpress.XtraLayout.RowDefinition() {rowDefinition7, rowDefinition8, rowDefinition9, rowDefinition10, rowDefinition11, rowDefinition12})
             Me.layoutControlGroup1.Size = New System.Drawing.Size(457, 400)
             Me.layoutControlGroup1.TextVisible = False
             ' 
@@ -369,59 +372,79 @@
             Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
             Me.Name = "Form1"
             Me.Text = "Performance Counter Correlation Example"
-            CType(Me.textEditCategory1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.textEditCategory1.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControl1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.layoutControl1.ResumeLayout(False)
-            CType(Me.circularGauge1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.labelComponent1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.arcScaleRangeBarComponent1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.arcScaleComponent1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.textEditCounter2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.textEditInstance2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.textEditInstance1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.textEditCounter1.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.textEditCategory2.Properties, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlGroup1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem2, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem3, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem4, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem5, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem6, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.simpleLabelItem1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.simpleLabelItem2, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem7, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.layoutControlItem8, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.circularGauge1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.labelComponent1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.arcScaleRangeBarComponent1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.arcScaleComponent1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.textEditCounter2.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.textEditInstance2.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.textEditInstance1.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.textEditCounter1.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.textEditCategory2.Properties), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlGroup1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem2), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem3), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem4), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem5), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem6), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.simpleLabelItem1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.simpleLabelItem2), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem7), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.layoutControlItem8), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
-
+#End Region
         Private textEditCategory1 As DevExpress.XtraEditors.TextEdit
+
         Private layoutControl1 As DevExpress.XtraLayout.LayoutControl
+
         Private textEditInstance1 As DevExpress.XtraEditors.TextEdit
+
         Private textEditCounter1 As DevExpress.XtraEditors.TextEdit
+
         Private layoutControlGroup1 As DevExpress.XtraLayout.LayoutControlGroup
+
         Private layoutControlItem1 As DevExpress.XtraLayout.LayoutControlItem
+
         Private layoutControlItem2 As DevExpress.XtraLayout.LayoutControlItem
+
         Private layoutControlItem3 As DevExpress.XtraLayout.LayoutControlItem
+
         Private textEditCounter2 As DevExpress.XtraEditors.TextEdit
+
         Private layoutControlItem5 As DevExpress.XtraLayout.LayoutControlItem
+
         Private layoutControlItem4 As DevExpress.XtraLayout.LayoutControlItem
+
         Private textEditInstance2 As DevExpress.XtraEditors.TextEdit
+
         Private textEditCategory2 As DevExpress.XtraEditors.TextEdit
+
         Private layoutControlItem6 As DevExpress.XtraLayout.LayoutControlItem
+
         Private simpleLabelItem1 As DevExpress.XtraLayout.SimpleLabelItem
+
         Private simpleLabelItem2 As DevExpress.XtraLayout.SimpleLabelItem
-        Private WithEvents btnStart As DevExpress.XtraEditors.SimpleButton
+
+        Private btnStart As DevExpress.XtraEditors.SimpleButton
+
         Private layoutControlItem7 As DevExpress.XtraLayout.LayoutControlItem
+
         Private gaugeControl1 As DevExpress.XtraGauges.Win.GaugeControl
+
         Private layoutControlItem8 As DevExpress.XtraLayout.LayoutControlItem
+
         Private arcScaleComponent1 As DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleComponent
+
         Private arcScaleRangeBarComponent1 As DevExpress.XtraGauges.Win.Gauges.Circular.ArcScaleRangeBarComponent
+
         Private labelComponent1 As DevExpress.XtraGauges.Win.Base.LabelComponent
+
         Private circularGauge1 As DevExpress.XtraGauges.Win.Gauges.Circular.CircularGauge
     End Class
 End Namespace
-

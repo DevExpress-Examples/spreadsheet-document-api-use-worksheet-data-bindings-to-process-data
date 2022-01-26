@@ -1,9 +1,10 @@
-﻿Imports DevExpress.Spreadsheet
-Imports System
+Imports DevExpress.Spreadsheet
 
 Namespace PerformanceCounterCorrelation
-    #Region "#WorksheetProcessor"
+
+#Region "#WorksheetProcessor"
     Public Class WorksheetProcessor
+
         Private wb As Workbook
 
         Public Sub New(ByVal dataSource As Object)
@@ -22,7 +23,6 @@ Namespace PerformanceCounterCorrelation
             Dim fileName As String = String.Format("{0:yyyy-MM-ddTHH-mm-ss}{1}.xlsx", Date.Now, fileNameBase)
             wb.SaveDocument(fileName, DocumentFormat.Xlsx)
         End Sub
-
     End Class
-    #End Region ' #WorksheetProcessor
+#End Region  ' #WorksheetProcessor
 End Namespace
