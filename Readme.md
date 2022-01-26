@@ -11,7 +11,7 @@
 * [TwoCounterSample.cs](./CS/PerformanceCounterCorrelationExample/TwoCounterSample.cs) (VB: [TwoCounterSample.vb](./VB/PerformanceCounterCorrelationExample/TwoCounterSample.vb))
 * [WorksheetProcessor.cs](./CS/PerformanceCounterCorrelationExample/WorksheetProcessor.cs) (VB: [WorksheetProcessor.vb](./VB/PerformanceCounterCorrelationExample/WorksheetProcessor.vb))
 <!-- default file list end -->
-# Spreadsheet Document API - Using Workbook databinding to log and analyze performance counters
+# Spreadsheet Document API - Use Worksheet Data Bindings to Log and Process Data
 
 
 <p>This example illustrates the use of the <a href="http://help.devexpress.com/#DocumentServer/clsDevExpressSpreadsheetWorkbooktopic">DevExpress.Spreadsheet.Workbook</a> instance to perform the calculations on data bound to an external data source. The calculation result is located in the cell exposed as the data source for the <a href="http://help.devexpress.com/#WindowsForms/clsDevExpressXtraGaugesWinGaugeControltopic">DevExpress.XtraGauges.Win.GaugeControl</a> control.</p>
