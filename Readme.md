@@ -25,7 +25,7 @@ The worksheet data source providing a correlation coefficient value is bound to 
 * [TwoCounterSample.cs](./CS/PerformanceCounterCorrelationExample/TwoCounterSample.cs) (VB: [TwoCounterSample.vb](./VB/PerformanceCounterCorrelationExample/TwoCounterSample.vb))
 * [WorksheetProcessor.cs](./CS/PerformanceCounterCorrelationExample/WorksheetProcessor.cs) (VB: [WorksheetProcessor.vb](./VB/PerformanceCounterCorrelationExample/WorksheetProcessor.vb))
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=spreadsheet-document-api-use-worksheet-data-bindings-to-process-data&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=spreadsheet-document-api-use-worksheet-data-bindings-to-process-data&~~~was_helpful=no)
 
